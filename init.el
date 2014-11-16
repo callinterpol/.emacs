@@ -54,3 +54,6 @@
 (add-hook 'completion-setup-hook
 	  (lambda () (run-at-time 3 nil
 	       (lambda () (delete-windows-on "*Completions*")))))
+
+;;autoinsert matching parentheses, braces, etc.
+(electric-pair-mode 1)
