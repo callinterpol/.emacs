@@ -49,3 +49,8 @@
 
 (require 'magit)
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;;make completion buffer dissappear after 3 seconds
+(add-hook 'completion-setup-hook
+	  (lambda () (run-at-time 3 nil
+	       (lambda () (delete-windows-on "*Completions*")))))
