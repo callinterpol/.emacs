@@ -18,7 +18,7 @@
 
 (tool-bar-mode -1)
 
-(setq evil-normal-state-cursor '("red" hbar))
+(setq evil-normal-state-cursor '("green" hbar))
 (setq evil-insert-state-cursor '("green" bar))
 
 ;;messagging buffer
