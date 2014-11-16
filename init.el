@@ -28,7 +28,7 @@
 (global-hl-line-mode 1)
 (show-paren-mode 1)
 
-;;;;setup buffers
+;;setup buffers
 ;;remove scratch buffer
 (setq initial-scratch-message "")
 (defun remove-scratch-buffer ()
