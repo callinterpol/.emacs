@@ -60,3 +60,5 @@
 
 ;;disable scrollbar
 (scroll-bar-mode -1)
+
+(setenv "GIT_ASKPASS" "git-gui--askpass")
