@@ -57,3 +57,6 @@
 
 ;;autoinsert matching parentheses, braces, etc.
 (electric-pair-mode 1)
+
+;;disable scrollbar
+(scroll-bar-mode -1)
